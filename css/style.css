@@ -71,10 +71,11 @@ ul {
 .header__button {
   margin-top: 50px;
   margin-bottom: auto;
+  align-self: center;
 }
 
 .button__path {
-  transition: fill 0.5s;
+  transition: all .6s;
 }
 
 .button:hover .button__path {
@@ -85,7 +86,8 @@ ul {
   font-size: 18px;
   line-height: 25px;
   display: inline-block;
-  transform: translate(-57px, -17px);
+  transform: translateY(-17px);
+  margin-left: -57px;
 }
 
 .social {
@@ -128,4 +130,9 @@ ul {
 
 .service__img {
   object-fit: cover;
+  color: #a3fa18
 }
+
+/* todo info */
+
+/* ! */
